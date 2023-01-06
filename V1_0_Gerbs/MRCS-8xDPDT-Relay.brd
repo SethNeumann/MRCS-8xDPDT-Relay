@@ -169,12 +169,28 @@ D V</text>
 N L
 D Y</text>
 <text x="148.59" y="19.05" size="2.54" layer="21" font="vector" ratio="10" rot="R180">MRCS 8xDPDT Relay
-V. 1.0 20230104
+V. 1.0 20230106
 Seth Neumann</text>
 <hole x="5.08" y="66.04" drill="3.2"/>
 <hole x="6.35" y="5.08" drill="3.2"/>
 <hole x="144.78" y="5.08" drill="3.2"/>
 <hole x="144.78" y="66.04" drill="3.2"/>
+<text x="15.875" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS1A</text>
+<text x="23.495" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS1B</text>
+<text x="30.48" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS2A</text>
+<text x="38.735" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS2B</text>
+<text x="46.99" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS3A</text>
+<text x="54.61" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS3B</text>
+<text x="62.23" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS4A</text>
+<text x="69.85" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS4B</text>
+<text x="77.47" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS5A</text>
+<text x="85.09" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS5B</text>
+<text x="92.71" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS6A</text>
+<text x="100.33" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS6B</text>
+<text x="107.95" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS7A</text>
+<text x="115.57" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS7B</text>
+<text x="123.19" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS8A</text>
+<text x="130.81" y="67.31" size="1.4224" layer="21" font="vector" ratio="10">OCS8B</text>
 </plain>
 <libraries>
 <library name="SPCoast">
@@ -472,6 +488,67 @@ Source: DCJ0202.pdf</description>
 </package>
 </packages>
 </library>
+<library name="MRCS-prop65warningBtm">
+<packages>
+<package name="CA-PROP65WARNING">
+<description>State of California Proposition 65 Warning</description>
+<text x="7.62" y="0" size="0.6096" layer="52" font="vector" rot="MR0" align="center-left">   CALIFORNIA PROPOSITION 65 WARNING
+WARNING: This product contains chemicals
+known to the State of California to cause cancer
+and birth defects or other reproductive harm.
+California law requires this warning to be 
+given to customers in the State of California</text>
+</package>
+</packages>
+</library>
+<library name="MRCSLogoBtm">
+<description>Model Railroad Control Systems LOGO</description>
+<packages>
+<package name="MRCSLOGOBTM">
+<description>Model Railroad Control Systems LOGO</description>
+<wire x1="6.858" y1="0.508" x2="6.35" y2="0.508" width="0.3048" layer="52"/>
+<wire x1="6.35" y1="0.508" x2="5.842" y2="0.508" width="0.3048" layer="52"/>
+<wire x1="6.35" y1="4.826" x2="5.461" y2="3.937" width="0.3048" layer="52"/>
+<wire x1="6.35" y1="5.08" x2="6.35" y2="4.826" width="0.127" layer="52"/>
+<wire x1="6.35" y1="4.826" x2="6.35" y2="3.175" width="0.127" layer="52"/>
+<wire x1="6.35" y1="3.175" x2="6.35" y2="1.524" width="0.127" layer="52"/>
+<wire x1="6.35" y1="1.524" x2="6.35" y2="0.508" width="0.3048" layer="52"/>
+<wire x1="6.35" y1="3.175" x2="5.334" y2="3.175" width="0.3048" layer="52"/>
+<text x="5.08" y="4.445" size="1.016" layer="52" rot="MR0">M</text>
+<text x="4.445" y="2.921" size="1.016" layer="52" rot="MR0">R</text>
+<text x="3.81" y="1.651" size="1.016" layer="52" rot="MR0">C</text>
+<text x="3.175" y="0.381" size="1.016" layer="52" rot="MR0">S</text>
+<text x="2.286" y="0.635" size="0.6096" layer="52" rot="MR0">ystems</text>
+<text x="2.921" y="1.905" size="0.6096" layer="52" rot="MR0">ontrol</text>
+<text x="3.556" y="3.175" size="0.6096" layer="52" rot="MR0">ailroad</text>
+<text x="4.191" y="4.699" size="0.6096" layer="52" rot="MR0">odel</text>
+</package>
+</packages>
+</library>
+<library name="MRCSLogoTop">
+<description>Model Railroad Control Systems LOGO</description>
+<packages>
+<package name="MRCSLOGOTOP">
+<description>Model Railroad Control Systems LOGO</description>
+<wire x1="0.762" y1="0.508" x2="1.27" y2="0.508" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="0.508" x2="1.778" y2="0.508" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="4.826" x2="2.159" y2="3.937" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="5.08" x2="1.27" y2="4.826" width="0.127" layer="51"/>
+<wire x1="1.27" y1="4.826" x2="1.27" y2="3.175" width="0.127" layer="51"/>
+<wire x1="1.27" y1="3.175" x2="1.27" y2="1.524" width="0.127" layer="51"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="0.508" width="0.3048" layer="51"/>
+<wire x1="1.27" y1="3.175" x2="2.286" y2="3.175" width="0.3048" layer="51"/>
+<text x="2.54" y="4.191" size="1.016" layer="51">M</text>
+<text x="3.175" y="2.921" size="1.016" layer="51">R</text>
+<text x="3.81" y="1.651" size="1.016" layer="51">C</text>
+<text x="4.445" y="0.381" size="1.016" layer="51">S</text>
+<text x="5.334" y="0.635" size="0.6096" layer="51">ystems</text>
+<text x="4.699" y="1.905" size="0.6096" layer="51">ontrol</text>
+<text x="4.064" y="3.175" size="0.6096" layer="51">ailroad</text>
+<text x="3.683" y="4.445" size="0.6096" layer="51">odel</text>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -714,11 +791,11 @@ design rules under a new name.</description>
 </element>
 <element name="IC1" library="MRCS" package="DIL18" value="ULN2830" x="69.85" y="16.51"/>
 <element name="J1" library="SPCoast" package="1X08_LOCK" value="" x="34.29" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="17.8562" y="66.7512" size="1.27" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="16.5862" y="60.4012" size="1.27" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.56" y="66.675" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="J2" library="SPCoast" package="1X08_LOCK" value="" x="36.83" y="63.5" smashed="yes">
-<attribute name="NAME" x="35.4838" y="65.3288" size="1.27" layer="25" ratio="10"/>
+<attribute name="NAME" x="36.7538" y="58.9788" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="35.56" y="60.325" size="1.27" layer="27"/>
 </element>
 <element name="J3" library="SPCoast" package="1X08_LOCK" value="" x="57.15" y="63.5"/>
@@ -735,6 +812,9 @@ design rules under a new name.</description>
 <element name="CON3" library="SPCoast" package="SCREWTERMINAL-3.5MM-2_LOCK" value="" x="43.18" y="16.51"/>
 <element name="CON4" library="SPCoast" package="SCREWTERMINAL-3.5MM-2_LOCK" value="" x="100.33" y="16.51"/>
 <element name="RELAY_PWR" library="SPCoast" package="MOLEX-1X3_LOCK" value="CONNECTOR-M03MOLEX-254-LOCK" x="31.75" y="19.05"/>
+<element name="U$1" library="MRCS-prop65warningBtm" package="CA-PROP65WARNING" value="" x="109.22" y="8.89"/>
+<element name="U$2" library="MRCSLogoBtm" package="MRCSLOGOBTM" value="" x="132.08" y="13.97"/>
+<element name="U$3" library="MRCSLogoTop" package="MRCSLOGOTOP" value="" x="2.54" y="19.05"/>
 </elements>
 <signals>
 <signal name="GND">
