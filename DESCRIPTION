@@ -11,4 +11,3 @@ Uses ULN-2803 as buffer/driver and for snubber diodes. These relays come in vari
 8 G5V2/JRC-19F/DS2E/DY2 style relays, can be powered from 5V from Arduino Relay Controller or any DC voltage coil available up to 48VDC. 
 These relays are available in a wide variety of specs including waterproof and automotive.
 Uses ULN-2803 as a driver and for snubber diodes.
->>>>>>> 94949ecace1da05c925f083a8666fa6af22d5126
