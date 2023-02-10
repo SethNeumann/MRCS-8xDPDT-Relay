@@ -1,8 +1,14 @@
 
 MRCS-8xDPDT-Relay - 8 channel DPDT Relay board with Arduino Relay compatible input
 
+<<<<<<< HEAD
 8 G5V2/JRC-19F/DS2/DY2 style relays, can be powered from 5V from Arduino Relay Controller or any DC voltage coil available up to 48VDC.
 Uses ULN-2803 as buffer/driver and for snubber diodes. These relays come in various ratings including waterproof and automotive, so there is one for every appliation!
 
 
 
+=======
+8 G5V2/JRC-19F/DS2E/DY2 style relays, can be powered from 5V from Arduino Relay Controller or any DC voltage coil available up to 48VDC. 
+These relays are available in a wide variety of specs including waterproof and automotive.
+Uses ULN-2803 as a driver and for snubber diodes.
+>>>>>>> 94949ecace1da05c925f083a8666fa6af22d5126
