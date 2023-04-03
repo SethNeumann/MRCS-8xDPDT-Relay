@@ -1,7 +1,7 @@
 name: MRCS-8xDPDT-Relay
 designer: Seth Neumann,Jon Schmidt
 fabricated: yes
-fab_date: 2023_01
+fab_date: 2023_04
 status: experimental
 publish: yes
 tags: [MRCS, SPCoast, eagle, Nano]
